@@ -1,0 +1,69 @@
+html{
+    background-color: #649D35;
+    background-image: url(https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/src/oasys/pattern-background.svg) 68px 68px repeat;
+}
+#emailVerificationControl_but_send_code{
+    width: 100%;
+    background: white;
+    margin: 8px 0 8px 0px;
+    border: solid 1px #1D2E40;
+    color: #1D2E40;
+    background: white;
+    border-radius: 4px;
+    height: 44px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+#emailVerificationControl_but_send_code:hover{
+    background: #b5cae0;
+}
+.helpLink{
+    display: none !important;
+}
+.textInput{
+    height: 40px;
+    border: solid 1px #dddddd;
+    border-radius:4px ;
+    margin: 8px 0 8px 0;
+}
+input[type=email], input[type=number], input[type=password], input[type=text]{
+    height: 40px;
+}
+
+#continue{
+    width: calc(50% - 8px);
+    height: 40px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+#cancel{
+    height: 40px;
+    width: calc(50% - 8px);
+    background-color: white;
+    border-radius: 4px;
+    font-weight: 500;
+    color: #1D2E40;
+}
+.intro{
+    font-size: 1.1em;
+    color: #424242;
+    font-weight: 600;
+    font-weight: bold;
+}
+
+#panel_center{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width:408px;
+    height: fit-content;
+    background-color:white;
+    border-radius: 8px;
+    box-shadow: 3px 3px 12px rgb(0 0 0 20%);
+}
+
+.error{
+    color: #E11451;
+}
+
+
